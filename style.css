@@ -1,0 +1,212 @@
+/*Desin and Coding */
+/*Ziad Ashraf */
+/*https://www.facebook.com/ZiadBhalol/*/
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #898989;
+}
+nav {
+  width: 90%;
+  margin: 0px auto;
+}
+.nav-contanier {
+  display: flex;
+  align-items: center;
+}
+.main-logo {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.main-logo h4 {
+  margin-left: 15px;
+}
+.nav_ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: capitalize;
+}
+.nav_ul li a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  width: 90%;
+  margin: 0px auto;
+  color: white;
+}
+.main-contanier {
+  display: flex;
+  position: relative;
+  top: 196px;
+  justify-content: space-around;
+}
+.cover {
+  width: 48%;
+  margin-right: 2%;
+}
+.cover img {
+  width: 100%;
+}
+.introdaction {
+  width: 50%;
+}
+.content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  width: 491px;
+}
+.content p {
+  font-size: 23px;
+  margin-bottom: 35px;
+}
+.btn {
+  background-color: #488333;
+  padding: 14px 27px;
+  border-radius: 10px;
+  border: none;
+  font-size: 23px;
+  color: white;
+}
+@media screen and (max-width: 375px) {
+  .main-logo {
+    flex: 1;
+  }
+  .main-logo img {
+    width: 50px;
+  }
+  .main-logo h4 {
+    font-size: 12px;
+  }
+  .nav_ul {
+    flex: 1;
+    font-size: 11px;
+    display: inline-flex;
+  }
+  .nav_ul li {
+    margin: 5px;
+  }
+  .main-contanier {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .cover {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content h1 {
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 6px;
+  }
+  .content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .main-logo {
+    flex: 1;
+  }
+  .main-logo img {
+    width: 50px;
+  }
+  .main-logo h4 {
+    font-size: 12px;
+  }
+  .nav_ul {
+    flex: 1;
+    font-size: 11px;
+    display: inline-flex;
+  }
+  .nav_ul li {
+    margin: 5px;
+  }
+  .main-contanier {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .cover {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content h1 {
+    margin-left: 20px;
+    font-size: 22px;
+    width: 300px;
+    margin-bottom: 6px;
+  }
+  .content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-logo {
+    flex: 1;
+  }
+  .main-logo img {
+    width: 50px;
+  }
+  .main-logo h4 {
+    font-size: 12px;
+  }
+  .nav_ul {
+    flex: 1;
+    font-size: 11px;
+    display: inline-flex;
+  }
+  .nav_ul li {
+    margin: 5px;
+  }
+  .main-contanier {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .cover {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content h1 {
+    font-size: 25px;
+    width: 396px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .content h1 {
+    width: 238px;
+    font-size: 24px;
+  }
+}
